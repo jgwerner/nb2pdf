@@ -23,10 +23,10 @@ setuptools.setup(
         "Operating System :: OS Independent",
 	],
 	install_requires = [
-		"nbformat",
-		"nbpdfexport==0.2.2",
-		"codecov",
-		"IPython"
+		"codecov==2.1.8",
+		"ipython==17.6.1"
+		"nbformat==5.0.7",
+		"nbpdfexport==0.2.1",
 	],
 	scripts=["bin/nb2pdf"]
 )
